@@ -13,7 +13,7 @@ enlaces:
   - nombre: Código
     url: https://github.com/dgarcesg/infraestructura-vial-afectada-ninos-costeros
   - nombre: Reel
-    url: https://drive.google.com/file/d/1KCr2tccy8RB4c-hOPeQL6rROYDBzQmmE/view?usp=sharing
+    url: /proyectos/1-infraestructura-vial/#el-reel-y-el-uso-de-ia
   - nombre: LinkedIn
     url: https://www.linkedin.com/feed/update/urn:li:activity:7522884339085516800/
 ---
@@ -46,6 +46,12 @@ También puedes [abrir el tablero en pantalla completa](https://dgarcesg.github.
 
 ## El reel y el uso de IA
 
-El [reel de unos 65 segundos](https://drive.google.com/file/d/1KCr2tccy8RB4c-hOPeQL6rROYDBzQmmE/view?usp=sharing) está narrado con mi voz clonada con IA, a partir de una grabación propia.
+Este reel de unos 65 segundos está narrado con mi voz clonada con IA, a partir de una grabación propia.
+
+<div class="reel-embebido">
+  <iframe src="https://drive.google.com/file/d/1KCr2tccy8RB4c-hOPeQL6rROYDBzQmmE/preview" title="Reel sobre el daño vial de los Niños Costeros, narrado con voz clonada con IA" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+Si no carga, puedes [verlo en Google Drive](https://drive.google.com/file/d/1KCr2tccy8RB4c-hOPeQL6rROYDBzQmmE/view?usp=sharing).
 
 Claude Code me ayudó a escribir los scripts, el tablero, el borrador del guion y el montaje del reel. Yo decidí el alcance, el periodo, la línea base y qué afirmaciones incluir, y revisé las cifras contra los datos.

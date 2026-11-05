@@ -70,6 +70,24 @@
   }
 }
 
+.reel-embebido {
+  margin: 1rem auto;
+  max-width: 360px;
+
+  iframe {
+    aspect-ratio: 9 / 16;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    display: block;
+    width: 100%;
+  }
+}
+
+// El enlace "Reel" de la tarjeta salta aqui; el margen evita que lo tape la barra fija.
+#el-reel-y-el-uso-de-ia {
+  scroll-margin-top: 4.5rem;
+}
+
 .repo-tarjeta {
   margin-bottom: 1rem;
 }
