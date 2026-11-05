@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dgarcesg.github.io/sitemap.xml
