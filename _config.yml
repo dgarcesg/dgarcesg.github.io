@@ -8,11 +8,11 @@ middle_name:
 last_name: Garcés García
 contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Abogada en derecho de la competencia, consumidor y regulación. Proyectos de ciencia de datos con Python e IA sobre datos públicos del Perú.
+  Abogada especialista en Derecho de la Competencia, Regulación de Servicios Públicos y Datos Personales. Proyectos de ciencia de datos con Python e IA sobre datos públicos del Perú.
 footer_text: >
   Hecho con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y el tema <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Publicado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: derecho de la competencia, regulación, protección al consumidor, ciencia de datos, Python, Perú # add your own keywords or leave empty
+keywords: derecho de la competencia, regulación de servicios públicos, datos personales, ciencia de datos, Python, Perú # add your own keywords or leave empty
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚖️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.

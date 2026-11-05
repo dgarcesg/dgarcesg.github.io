@@ -5,8 +5,8 @@ cv:
   label: Abogada
   location: Lima, Perú
   summary: >-
-    Abogada en derecho de la competencia, protección al consumidor, protección de datos personales y regulación.
-    Curso la Diplomatura de especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública de la PUCP.
+    Soy abogada especialista en Derecho de la Competencia, Regulación de Servicios Públicos y Datos Personales.
+    Actualmente curso la Diplomatura de Especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública de la PUCP.
 
   sections:
     - titulo: Experiencia profesional
@@ -50,7 +50,7 @@ cv:
     - titulo: Educación
       tipo: educacion
       entradas:
-        - studyType: Diplomatura de especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública (en curso)
+        - studyType: Diplomatura de Especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública (en curso)
           institution: Pontificia Universidad Católica del Perú
           location: Lima, Perú
           date: 2026

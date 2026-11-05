@@ -2,7 +2,7 @@
 layout: about
 title: sobre mí
 permalink: /
-subtitle: Abogada · Competencia, consumidor y regulación · Lima, Perú
+subtitle: Abogada - Derecho de la Competencia y Regulación de Servicios Públicos - Lima, Perú
 
 profile:
   align: right
@@ -19,8 +19,6 @@ latest_posts:
   enabled: false
 ---
 
-Soy abogada en derecho de la competencia, protección al consumidor y regulación, y asociada en Hernández & Cía Abogados.
-
-Curso la Diplomatura de especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública de la PUCP, donde uso Python e IA para analizar datos públicos del Perú.
+Soy abogada especialista en Derecho de la Competencia, Regulación de Servicios Públicos y Datos Personales. Actualmente curso la Diplomatura de Especialización Ciencia de Datos para las Ciencias Sociales y la Gestión Pública de la PUCP.
 
 [Descarga mi CV en PDF (en inglés)]({{ '/assets/pdf/CV_Adriana_Garces_Garcia.pdf' | relative_url }})
