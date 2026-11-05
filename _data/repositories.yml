@@ -1,0 +1,14 @@
+# Repositorios de la pestaña "repositorios". Se muestran con _pages/repositories.md.
+repositorios:
+  - nombre: infraestructura-vial-afectada-ninos-costeros
+    url: https://github.com/dgarcesg/infraestructura-vial-afectada-ninos-costeros
+    descripcion: Tablero interactivo sobre los puentes y las vías que destruyeron los Niños Costeros de 2017 y 2023, con datos del SINPAD.
+    lenguaje: Python
+  - nombre: MCP-BCRP
+    url: https://github.com/dgarcesg/MCP-BCRP
+    descripcion: Servidor MCP que le da a Claude acceso a las series estadísticas del BCRP, con una evaluación de 10 preguntas.
+    lenguaje: Python
+  - nombre: monitor-de-incendios
+    url: https://github.com/dgarcesg/monitor-de-incendios
+    descripcion: Monitor de incendios forestales del Perú con focos VIIRS, clima de Open-Meteo e imágenes Sentinel-2.
+    lenguaje: Jupyter Notebook

@@ -1,0 +1,72 @@
+{% comment %}
+  Version en espanol del CV de al-folio. Reemplaza a la plantilla del plugin al_folio_cv,
+  que tiene los titulos fijos en ingles. Reutiliza sus plantillas de cada tipo de entrada.
+  A proposito no muestra correo, telefono, direccion ni boton de descarga en PDF.
+{% endcomment %}
+{% assign cv = site.data.cv.cv %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      <a class="anchor" id="datos-generales"></a>
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Datos generales</h3>
+        <table class="table table-cv table-sm table-borderless">
+          <tr>
+            <td class="p-1 pr-2 font-weight-bold"><b>Nombre</b></td>
+            <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
+          </tr>
+          <tr>
+            <td class="p-1 pr-2 font-weight-bold"><b>Título profesional</b></td>
+            <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+          </tr>
+          <tr>
+            <td class="p-1 pr-2 font-weight-bold"><b>Ubicación</b></td>
+            <td class="p-1 pl-2 font-weight-light">{{ cv.location }}</td>
+          </tr>
+        </table>
+      </div>
+
+      <a class="anchor" id="perfil-profesional"></a>
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Perfil profesional</h3>
+        <p>{{ cv.summary }}</p>
+      </div>
+
+      {% for section in cv.sections %}
+        <a class="anchor" id="{{ section.titulo | slugify }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ section.titulo }}</h3>
+          <div>
+            {% assign entries = section.entradas %}
+            {% case section.tipo %}
+              {% when 'experiencia' %}
+                {% include cv/experience.liquid %}
+              {% when 'educacion' %}
+                {% include cv/education.liquid %}
+              {% when 'premios' %}
+                {% include cv/awards.liquid %}
+              {% when 'idiomas' %}
+                {% include cv/languages.liquid %}
+            {% endcase %}
+          </div>
+        </div>
+      {% endfor %}
+
+      <a class="anchor" id="publicaciones"></a>
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Publicaciones</h3>
+        <p>
+          La lista completa está en la pestaña de <a href="{{ '/publicaciones/' | relative_url }}">publicaciones</a>.
+        </p>
+      </div>
+    </div>
+  </article>
+</div>

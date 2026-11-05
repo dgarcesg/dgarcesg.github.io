@@ -1,0 +1,19 @@
+<div class="col">
+  <div class="card h-100 hoverable">
+    <a href="{{ project.url | relative_url }}">
+      {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 300px, 95vw" alt=project.img_alt class="card-img-top" %}
+    </a>
+    <div class="card-body">
+      <a href="{{ project.url | relative_url }}">
+        <h2 class="card-title">{{ project.title }}</h2>
+      </a>
+      <p class="card-text"><strong>Pregunta:</strong> {{ project.pregunta }}</p>
+      <p class="card-text"><strong>Resultado:</strong> {{ project.resultado }}</p>
+      <p class="card-text proyecto-enlaces">
+        {% for enlace in project.enlaces %}
+          <a href="{{ enlace.url }}">{{ enlace.nombre }}</a>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</div>
